@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+/* NAV BAR & SLIDE*/
+#navbarNav {
+  padding-left: 5%;
+}
+
+.navbar-brand {
+  padding-left: 15%;
+  font-weight: bold;
+}
+
+.carousel button {
+  background: transparent;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid white;
+  margin-bottom: 100px;
+}
+
+.carousel img {
+  filter: brightness(40%);
+}
+
+/* CAROUSEL JUMBO */
+
+.carousel-jumbo {
+  background-color: #ed564b;
+}
+
+.jumbo {
+  margin: 0px 30px 10px 30px;
+  padding: 20px 10% 20px 10%;
+  color: white;
+}
+
+.jumbo-item {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.jumbo-img {
+  border: 2px solid white;
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.jumbo h5 {
+  margin-top: 10px;
+}
+
+/* PROJECTS */
+
+.projects {
+  margin: 0 auto;
+}
+
+.project-item {
+  margin: 5px;
+}
+
+.project-img {
+  width: 240px;
+}
+
+.projects .row {
+  max-width: 1110px;
+}
+
+.projects p {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.projects h5 {
+  color: #a6a6a6;
+  line-height: 17px;
+}
+
+.projects h6 {
+  line-height: 19px;
+  margin-top: 6px;
+}
+
+.projects span {
+  color: #ed564b;
+}
+
+/* FOOTER */
+
+.footer {
+  border-top: 2px solid #ed564b;
+  color: #a6a6a6;
+  font-size: 13px;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.footer a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #a6a6a6;
+  color: #a6a6a6;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer-up {
+  padding: 25px 10%;
+}
+
+.footer-down {
+  background-color: #252728;
+  padding: 10px 10%;
+}
