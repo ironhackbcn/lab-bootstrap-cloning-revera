@@ -1,0 +1,66 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+nav a {
+  text-decoration-line: none;
+  color: rgb(22, 21, 21);
+}
+nav :hover {
+  color: indianred;
+}
+.image-back {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url("./starter-code/img/slider-1.jpg");
+  filter: grayscale(100%);
+}
+.section-header {
+  background-color: indianred;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+.no-logo {
+  width: 20%;
+  filter: invert(100%);
+  padding: 15px;
+}
+
+.section-img {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: rgb(53, 53, 53);
+  padding: 15px;
+}
+.just-text {
+  text-align: justify;
+}
+h5 {
+  color: gray;
+}
+.img-main {
+  width: 85%;
+  padding: 15px;
+}
+.info-foot {
+  background-color: rgb(36, 32, 32);
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.699);
+  padding: 15px;
+}
+.copy-foot {
+  background-color: darkgoldenrod;
+}
+hr {
+  border: 2px solid cadetblue;
+}
+.info-foot hr {
+  border: 1px solid gray;
+}
